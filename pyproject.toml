@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "PrimeNumbersBefore"
+version = "0.1.0"
+description = ""
+authors = ["teo <teodantes@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+canonicalrepresentation = {path = "../CanonicalRepresentation"}
+
+[tool.poetry.scripts]
+primesbefore = "primenumbersbefore.prime_numbers_before:start"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
