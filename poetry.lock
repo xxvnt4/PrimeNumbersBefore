@@ -30,8 +30,10 @@ python-versions = "^3.8"
 develop = false
 
 [package.source]
-type = "directory"
-url = "../CanonicalRepresentation"
+type = "git"
+url = "https://github.com/xxvnt4/CanonicalRepresentation.git"
+reference = "main"
+resolved_reference = "a13765023c8a199f4898ebf93536f0afcc9286ad"
 
 [[package]]
 name = "colorama"
@@ -120,7 +122,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "cd75ded086aa95bae6a3629e025f9e7c6661e21c82322e05189d772f3bf074f6"
+content-hash = "73fe992bf504e8312cdcd765a8b9c88529b6c38bdebe239ed92c5ee30fff30ff"
 
 [metadata.files]
 atomicwrites = [
