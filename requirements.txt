@@ -1,0 +1,1 @@
+git+git://github.com/xxvnt4/CanonicalRepresentation.git#egg=CanonicalRepresentation
