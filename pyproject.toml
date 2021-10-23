@@ -6,7 +6,6 @@ authors = ["teo <teodantes@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-canonicalrepresentation = {git = "https://github.com/xxvnt4/CanonicalRepresentation.git", rev = "main"}
 
 [tool.poetry.scripts]
 primesbefore = "primenumbersbefore.prime_numbers_before:start"
